@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #64748b; /* slate-500 */
+  border-radius: 10px;
+}
+
+/* Horizontal scrollbar */
+.custom-scrollbar-horizontal::-webkit-scrollbar {
+  height: 6px;
+}
+.custom-scrollbar-horizontal::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar-horizontal::-webkit-scrollbar-thumb {
+  background: #64748b; /* slate-500 */
+  border-radius: 10px;
+}
